@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UNT Health Center</title>
+    <style>
+        body {
+            background-color: green;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        header, footer {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        .doctor {
+            margin-bottom: 20px;
+        }
+        form {
+            margin-top: 20px;
+        }
+        input[type="text"], input[type="email"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <h2>UNT Health Center</h2>
+            <a href="#doctors">Doctors</a> |
+            <a href="#department">Department</a> |
+            <a href="#contact">Contact</a> |
+            <a href="#signin">Sign In</a>
+        </nav>
+    </header>
+    <main>
+        <section id="doctors">
+            <h2>Our Renowned Doctors</h2>
+            <div class="doctor">
+                <h3>Doctor 1: Dr. Joseph Livingston</h3>
+                <p>Specialization: Cardiologist</p>
+                <p>Description: Dr. Joseph Livingston is a renowned cardiologist with over 20 years of experience. He has a special interest in interventional cardiology and has performed numerous successful procedures.</p>
+            </div>
+            <div class="doctor">
+                <h3>Doctor 2: Dr. Jane Smith</h3>
+                <p>Specialization: Gynaecologist</p>
+                <p>Description: Dr. Jane Smith is a highly respected gynaecologist with a special interest in minimally invasive surgery. She has helped many women with her expertise and compassionate care.</p>
+            </div>
+            <div class="doctor">
+                <h3>Doctor 3: Diana Joseph</h3>
+                <p>Specialization: Orthodontics</p>
+                <p>Description: Diana Joseph is a skilled orthodontist who has transformed many smiles with her expertise in braces and Invisalign. She is known for her gentle approach and excellent results.</p>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" required></textarea>
+                <input type="submit" value="Send">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2022 UNT Health Center. All rights reserved.</p>
+    </footer>
+</body>
+</html>
